@@ -25,6 +25,7 @@ Currently, we are preserving the origin of all MIDI files by placing them in dir
 - [ ] [Mfiles Classical MIDI](https://www.mfiles.co.uk/classical-midi.htm)
 - [ ] [Mfiles Traditional MIDI](https://www.mfiles.co.uk/midi-traditional.htm) - ragtime, patriotic, folk, childrens songs, hymns/church, weddings, christmas, etc)
 - [ ] [Classical Archives](https://www.classicalarchives.com/midi.html)
+- [ ] [Composing.ai Dataset](https://composing.ai/dataset)
 - [ ] midkar
   - [ ] http://midkar.com/classical/
   - [ ] http://midkar.com/country/
