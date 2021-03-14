@@ -16,35 +16,35 @@ Currently, we are preserving the origin of all MIDI files by placing them in dir
 
 ### PRIORITY
 
-- [ ] [vgmusic](https://drive.google.com/drive/folders/1IW83MmH-RJ81yog6sbOUOTHimobE4FuK?usp=sharing) (28,419 songs)
-- [ ] [Doug McKenzie Jazz](https://drive.google.com/drive/folders/1wVVDpcov5VV6Govhn1-CT0BOifqoF-Od?usp=sharing) (297 songs)
-- [ ] [E-piano competition](https://drive.google.com/drive/folders/17yAGt3AR6txSZv8DBcbAbT3luTMkrkIb?usp=sharing) (1573 songs)
-- [ ] [The Lakh MIDI Dataset v0.1](https://colinraffel.com/projects/lmd/) (176,581 songs)
-- [ ] [W3F MIDI Files](http://web.archive.org/web/20080601093342/http://www.w3f.com/midi/pop) (organized by genre, few hundred songs)
+- [x] [vgmusic](https://drive.google.com/drive/folders/1IW83MmH-RJ81yog6sbOUOTHimobE4FuK?usp=sharing) (28,419 songs)
+- [x] [Doug McKenzie Jazz](https://drive.google.com/drive/folders/1wVVDpcov5VV6Govhn1-CT0BOifqoF-Od?usp=sharing) (297 songs)
+- [x] [E-piano competition](https://drive.google.com/drive/folders/17yAGt3AR6txSZv8DBcbAbT3luTMkrkIb?usp=sharing) (1573 songs)
+- [x] [The Lakh MIDI Dataset v0.1](https://colinraffel.com/projects/lmd/) (176,581 songs)
+- [x] [W3F MIDI Files](http://web.archive.org/web/20080601093342/http://www.w3f.com/midi/pop) (organized by genre, few hundred songs)
 - [ ] [The Real Book Jazz Standards MIDI Files](http://web.archive.org/web/20190525163802/http://www.profesordepiano.com/Real%20Book/Realbook.htm)
 - [ ] [Mfiles Classical MIDI](https://www.mfiles.co.uk/classical-midi.htm)
 - [ ] [Mfiles Traditional MIDI](https://www.mfiles.co.uk/midi-traditional.htm) - ragtime, patriotic, folk, childrens songs, hymns/church, weddings, christmas, etc)
 - [ ] [Classical Archives](https://www.classicalarchives.com/midi.html)
-- [ ] [Composing.ai Dataset](https://composing.ai/dataset)
-- [ ] midkar
-  - [ ] http://midkar.com/classical/
-  - [ ] http://midkar.com/country/
-  - [ ] http://midkar.com/gospel/
-  - [ ] http://midkar.com/holidays/christmas/
-  - [ ] http://midkar.com/holidays/easter/
-  - [ ] http://www.midkar.com/pat/
-  - [ ] http://midkar.com/holidays/thanksgiving/
-  - [ ] http://midkar.com/holidays/other/
-  - [ ] http://midkar.com/holidays/valentines/
-  - [ ] http://midkar.com/holidays/stpats/
-  - [ ] http://midkar.com/jazz/
-  - [ ] http://midkar.com/misc/
-  - [ ] http://midkar.com/original/
-  - [ ] http://midkar.com/poprock/
-  - [ ] http://midkar.com/ragtime/
-  - [ ] http://midkar.com/world/
-  - [ ] http://midkar.com/themes/
-  - [ ] http://midkar.com/blues/
+- [x] [Composing.ai Dataset](https://composing.ai/dataset)
+- [x] midkar
+  - [x] http://midkar.com/classical/
+  - [x] http://midkar.com/country/
+  - [x] http://midkar.com/gospel/
+  - [x] http://midkar.com/holidays/christmas/
+  - [x] http://midkar.com/holidays/easter/
+  - [x] http://www.midkar.com/pat/
+  - [x] http://midkar.com/holidays/thanksgiving/
+  - [x] http://midkar.com/holidays/other/
+  - [x] http://midkar.com/holidays/valentines/
+  - [x] http://midkar.com/holidays/stpats/
+  - [x] http://midkar.com/jazz/
+  - [x] http://midkar.com/misc/
+  - [x] http://midkar.com/original/
+  - [x] http://midkar.com/poprock/
+  - [x] http://midkar.com/ragtime/
+  - [x] http://midkar.com/world/
+  - [x] http://midkar.com/themes/
+  - [x] http://midkar.com/blues/
 
 
 ### REGULAR
