@@ -48,33 +48,20 @@ Currently, we are preserving the origin of all MIDI files by placing them in dir
 
 
 ### REGULAR
-http://www.thejazzpage.de/index1.html -  scrapable ~100-200 jazz midi files (click on midi section on top)
-
-http://web.archive.org/web/20180212230649/http://www.saxuet.qc.ca/TheSaxyPage/midi.htm - more jazz midis
-
-http://caseyscaverns.com/xmas/midi.html - 200 christmas midi files
-
-https://jazzycat.tripod.com/jazzcat.html - jazz midi files
-
-https://www.angelfire.com/nm/hyhouse/lovesongs.html - midi (love songs, country, contemporary christian, 50s and 60s)
-
-http://www.davidbmidi.com/ - midi singles, beatles, country, jazz, rock
-
-http://web.archive.org/web/20050213015449/http://www.fortunecity.com/tinpan/bush/1092/duklis/duklis.html - midi country and pop
-
-http://web.archive.org/web/20050129094112/http://www.geocities.com/ajsblue/blues/blues_1.html - blues midi
-
-http://web.archive.org/web/20050124095208/http://www.geocities.com/ajsblue/classic/classic.html - classical/opera/orchesta midi
-
-http://web.archive.org/web/20090228195215/http://www.trachtman.org/ragtime/index.htm - ragtime piano midi
-
-https://www.mididb.com/genres/ - midi organized by genre, many genres, so-so
-
-http://web.archive.org/web/20080216014704/http://www.cool-midi.com/free-midi-11.htm - has midi organized by genre (Rock R&B Rap/Hip Hop Pop Dance-Pop Latin Club/Dance Reggae Country Electronica Ethnic Fusion Gospel New Age Vocal Soundtrack Teen Pop Latin Pop Comedy Pop/RockVocal Pop World Dance Soul). potential to scrape
-
-[MFiles Original MIDI](https://www.mfiles.co.uk/midi-original.htm) - partly unsorted, partly in categories like jazz, world, pop, soundtrack
-
-http://web.archive.org/web/20070320074201/http://www.ugrad.physics.mcgill.ca/~orchard/Mirrors/midi-disco.chat.ru/disco-midi/index1.html - 100 disco midi easy download
+- [x] http://www.thejazzpage.de/index1.html -  scrapable ~100-200 jazz midi files (click on midi section on top)
+- [ ] http://web.archive.org/web/20180212230649/http://www.saxuet.qc.ca/TheSaxyPage/midi.htm - more jazz midis
+- [ ] http://caseyscaverns.com/xmas/midi.html - 200 christmas midi files
+- [ ] https://jazzycat.tripod.com/jazzcat.html - jazz midi files
+- [ ] https://www.angelfire.com/nm/hyhouse/lovesongs.html - midi (love songs, country, contemporary christian, 50s and 60s)
+- [ ] http://www.davidbmidi.com/ - midi singles, beatles, country, jazz, rock
+- [ ] http://web.archive.org/web/20050213015449/http://www.fortunecity.com/tinpan/bush/1092/duklis/duklis.html - midi country and pop
+- [ ] http://web.archive.org/web/20050129094112/http://www.geocities.com/ajsblue/blues/blues_1.html - blues midi
+- [ ] http://web.archive.org/web/20050124095208/http://www.geocities.com/ajsblue/classic/classic.html - classical/opera/orchesta midi
+- [ ] http://web.archive.org/web/20090228195215/http://www.trachtman.org/ragtime/index.htm - ragtime piano midi
+- [ ] https://www.mididb.com/genres/ - midi organized by genre, many genres, so-so
+- [ ] http://web.archive.org/web/20080216014704/http://www.cool-midi.com/free-midi-11.htm - has midi organized by genre (Rock R&B Rap/Hip Hop Pop Dance-Pop Latin Club/Dance Reggae Country Electronica Ethnic Fusion Gospel New Age Vocal Soundtrack Teen Pop Latin Pop Comedy Pop/RockVocal Pop World Dance Soul). potential to scrape
+- [ ] [MFiles Original MIDI](https://www.mfiles.co.uk/midi-original.htm) - partly unsorted, partly in categories like jazz, world, pop, soundtrack
+- [ ] http://web.archive.org/web/20070320074201/http://www.ugrad.physics.mcgill.ca/~orchard/Mirrors/midi-disco.chat.ru/disco-midi/index1.html - 100 disco midi easy download
 
 ### UNSORTED
 
