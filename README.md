@@ -21,9 +21,9 @@ Currently, we are preserving the origin of all MIDI files by placing them in dir
 - [x] [E-piano competition](https://drive.google.com/drive/folders/17yAGt3AR6txSZv8DBcbAbT3luTMkrkIb?usp=sharing) (1573 songs)
 - [x] [The Lakh MIDI Dataset v0.1](https://colinraffel.com/projects/lmd/) (176,581 songs)
 - [x] [W3F MIDI Files](http://web.archive.org/web/20080601093342/http://www.w3f.com/midi/pop) (organized by genre, few hundred songs)
-- [ ] [The Real Book Jazz Standards MIDI Files](http://web.archive.org/web/20190525163802/http://www.profesordepiano.com/Real%20Book/Realbook.htm)
-- [ ] [Mfiles Classical MIDI](https://www.mfiles.co.uk/classical-midi.htm)
-- [ ] [Mfiles Traditional MIDI](https://www.mfiles.co.uk/midi-traditional.htm) - ragtime, patriotic, folk, childrens songs, hymns/church, weddings, christmas, etc)
+- [x] [The Real Book Jazz Standards MIDI Files](http://web.archive.org/web/20190525163802/http://www.profesordepiano.com/Real%20Book/Realbook.htm)
+- [x] [Mfiles Classical MIDI](https://www.mfiles.co.uk/classical-midi.htm)
+- [x] [Mfiles Traditional MIDI](https://www.mfiles.co.uk/midi-traditional.htm) - ragtime, patriotic, folk, childrens songs, hymns/church, weddings, christmas, etc)
 - [ ] [Classical Archives](https://www.classicalarchives.com/midi.html)
 - [x] [Composing.ai Dataset](https://composing.ai/dataset)
 - [x] midkar
