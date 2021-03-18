@@ -1,0 +1,16 @@
+#!/bin/bash
+
+if [ "$#" -ne 1 ] || [ "$1" = "-h" ] || [ "$1" == "--help" ]; then
+	echo "Usage: $(basename $0) directory"
+	echo "Renames all files in directory to their md5 checksum"
+	exit
+elif [ ! -d "$1" ]; then
+        echo "$1 is not a valid directory"
+        exit
+fi
+
+for f in "$1"/*
+do
+	checksum=$(md5sum -b "$f" | cut -d " " -f1)
+	mv "$f" "$1/$checksum.mid"
+done

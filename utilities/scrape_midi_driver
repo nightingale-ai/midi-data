@@ -1,0 +1,44 @@
+#! /bin/bash
+
+if [ $# -ne 1 ] || [ "$1" = "-h" ] || [ "$1" = "--help" ]; then
+	echo "Usage: $(basename $0) <website>"
+	echo "Available websites: midiworld, freemidi"
+	exit
+elif [ "$1" != "midiworld" ] && [ "$1" != "freemidi" ]; then
+	echo "Usage: $(basename $0) <website>"
+	echo "$1 is an invalid website."
+	echo "Available websites: midiworld, freemidi"
+	exit
+
+fi
+
+# This script is a driver for the scrape_midiworld.py and
+# scrape_freemidi.py scripts to facilitate scraping all genres.
+# The scripts themselves expect a genre argument, so this driver
+# simply loops through all available genres and calls the script
+# on each of them. Creates a directory for each genre and drops
+# files in there.
+
+if [ "$1" = "midiworld" ]; then
+	for genre in "pop" "classic" "rock" "rap" "dance" "punk" "blues" "country" "movie themes" "tv themes" "christmas carols" "video game themes" "disney themes" "national anthems" "jazz" "hip-hop";
+	do
+		genre_dir=$(echo "$genre" | tr " " "-")
+		mkdir "$genre_dir"
+		cd "$genre_dir"
+		python3 ../scrape_midiworld.py "$genre"
+
+		# files with spaces will have %20 instead, let's fix that
+		for f in *; do mv "$f" $(echo "$f" | sed 's/%20/-/g'); done
+		cd ..
+	done
+
+elif [ "$1" = "freemidi" ]; then
+	for genre in "rock" "pop" "hip-hop-rap" "rnb-soul" "classical" "country" "jazz" "blues" "dance-eletric" "folk" "punk" "newage" "reggae-ska" "metal" "disco" "bluegrass"
+	do
+		genre_dir=$(echo "$genre" | tr " " "-")
+		mkdir "$genre_dir"
+		cd "$genre_dir"
+		python3 ../scrape_freemidi.py "$genre"
+		cd ..
+	done
+fi

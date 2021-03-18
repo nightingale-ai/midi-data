@@ -1,0 +1,16 @@
+#!/bin/bash
+
+if [ $# -ne 1 ] || [ "$1" = "-h" ] || [ "$1" = "--help" ]; then
+	echo "Usage: $(basename $0) directory/"
+	echo "Renames all files in directory to x.mid, where x is an integer 0 - n"
+	exit
+elif [ ! -d "$1" ]; then
+        echo "$1 is not a valid directory"
+        exit
+fi
+
+n=0
+for f in "$1"/*; do
+	mv "$f" "$1/$n.mid"
+	n=$((n+1))
+done
