@@ -6,9 +6,9 @@ To scrape the data, run the python scripts with the `scrape_` prefix.
 
 Requirements:
 * `python3`
-* `BeautifulSoup4` ([URL](https://www.crummy.com/software/BeautifulSoup/bs4/doc/))
-* `requests` ([URL](https://requests.readthedocs.io/en/master/))
-* `selenium`  ([URL](https://www.selenium.dev/))
+* [`BeautifulSoup4`](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+* [`requests`](https://requests.readthedocs.io/en/master/)
+* [`selenium`](https://www.selenium.dev/)
 
 Only some of the scripts need selenium (it was necessary for quirky sites). You may also need to install [uBlock Origin](https://github.com/gorhill/uBlock) (or your adblocker of choice) in order for those scripts to work correctly.
 
@@ -17,7 +17,7 @@ Note: these steps use shell scripts which are meant to be run in POSIX shells.
 
 1. Remove non-MIDI files using `rm_nonmidi`
   + often the files are downloaded with a `.mid` suffix but are actually empty, an HTML file, or even some other weird file format
-2. Check for duplicate files using `fdupes` ([URL](https://github.com/adrianlopezroche/fdupes))
+2. Check for duplicate files using [`fdupes`](https://github.com/adrianlopezroche/fdupes)
   + if duplicates are found, prefer to keep sorted files over unsorted files
 3. Rename all files to their md5 checksum using `md5rename`
 
